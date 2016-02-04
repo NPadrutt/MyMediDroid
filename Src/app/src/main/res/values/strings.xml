@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Medi Fox</string>
+    <string name="word_intake">Intake</string>
+    <string name="word_mymedis">Medicine</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_about">About</string>
+    <string name="action_delete">Delete</string>
+    <string name="deleted_items">items deleted</string>
+
+    //Title
+    <string name="title_section1">Medicine</string>
+    <string name="title_section2">Intakes</string>
+    <string name="title_section3">About</string>
+    <string name="title_add_intake">Add intake</string>
+    <string name="title_add_medi">Add medicine</string>
+    <string name="title_edit_medi">Edit medicine</string>
+    <string name="title_edit_intake">Edit intake</string>
+    <string name="title_item_selected">item selected</string>
+    <string name="title_activity_modifications">ModificationsActivity</string>
+    //Hint Text
+    <string name="hint_medicine_name">Medicine name</string>
+    <string name="hint_amount">Amount</string>
+    <string name="hint_date">Date</string>
+    <string name="hint_comment">Comment</string>
+
+    //Button Text
+    <string name="button_save_intake">Save intake</string>
+    <string name="button_save_medicine">Save medicine</string>
+    <string name="button_save_changes">Save changes</string>
+    <string name="title_activity_about">About</string>
+    <string name="hello_world">Hello world!</string>
+
+    //About Page
+    <string name="developer_label">developer: </string>
+    <string name="info_label">info</string>
+    <string name="version_label">version number</string>
+    <string name="kontakt_label">contact</string>
+
+    //Alert Message
+    <string name="alert_text">When you delete a medicine, all intakes of this medicine will also be deleted. Do you want delete the medicine anyway?</string>
+    <string name="alert_button_yes">Delete</string>
+    <string name="alert_button_no">Cancel</string>
+    <string name="developer_name">Apply Solutions</string>
+    <string name="support_mail">mobile.support@apply-solutions.ch</string>
+    <string name="website_url">www.apply-solutions.ch</string>
+
+</resources>

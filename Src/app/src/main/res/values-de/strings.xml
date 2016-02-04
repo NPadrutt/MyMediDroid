@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Medi Fox</string>
+
+    <string name="word_intake">Einnahme</string>
+    <string name="word_mymedis">Medikamente</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_about">Über</string>
+    <string name="action_delete">Löschen</string>
+    <string name="deleted_items">Einträge gelöscht</string>
+
+    //Title
+    <string name="title_section1">Medikamente</string>
+    <string name="title_section2">Einnahmen</string>
+    <string name="title_section3">Über</string>
+    <string name="title_section4">Sektion 4</string>
+    <string name="title_add_intake">Einnahme hinzufügen</string>
+    <string name="title_add_medi">Medizin hinzufügen</string>
+    <string name="title_edit_medi">Medizin ändern</string>
+    <string name="title_edit_intake">Einnahme ändern</string>
+    <string name="title_item_selected">Objekt/e ausgewählt</string>
+
+    //Hint
+    <string name="hint_medicine_name">Medizinname</string>
+    <string name="hint_amount">Anzahl</string>
+    <string name="hint_date">Datum</string>
+    <string name="hint_comment">Bemerkung</string>
+
+    //Button Text
+    <string name="button_save_intake">Einnahme speichern</string>
+    <string name="button_save_medicine">Medizin speichern</string>
+    <string name="button_save_changes">Änderungen speichern</string>
+    <string name="button_undo">Rückgängig</string>
+
+    //About Page
+    <string name="developer_label">developer: </string>
+    <string name="info_label">info</string>
+    <string name="version_label">Version</string>
+    <string name="kontakt_label">Kontakt</string>
+
+    //Alert Message
+    <string name="alert_text">Wenn Sie eine Medizin löschen, werden auch alle Einnahmen dieser Medizin gelöscht. Wollen Sie wirklich fortfahren?</string>
+    <string name="alert_button_yes">Löschen</string>
+    <string name="alert_button_no">Abbrechen</string>
+
+</resources>

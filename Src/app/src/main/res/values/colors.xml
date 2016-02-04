@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="actionMode_Background">#ffa3b0bd</color>
+    <color name="item_pressed">#ff5cdfff</color>
+    <color name="PrimaryDarkBlue">#0277BD</color>
+</resources>
