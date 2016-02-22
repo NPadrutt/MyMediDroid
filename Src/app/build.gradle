@@ -1,12 +1,12 @@
 apply plugin: 'com.android.application'
 
 android {
-    compileSdkVersion 21
-    buildToolsVersion "21.1.1"
+    compileSdkVersion 23
+    buildToolsVersion '23.0.2'
     defaultConfig {
         applicationId 'ch.applysolutions.mymediandroid'
         minSdkVersion 16
-        targetSdkVersion 21
+        targetSdkVersion 23
         versionCode 1
         versionName '0.1.2.0'
     }
@@ -24,15 +24,18 @@ repositories {
     jcenter()
     mavenCentral()
     maven { url 'http://dl.bintray.com/drummer-aidan/maven'  }
+    maven { url "https://jitpack.io" }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
-    compile 'com.android.support:support-v4:22.2.0'
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:support-v4:23.0.0'
     compile project(':dataAccess')
     compile 'com.squareup.dagger:dagger:1.2.2'
     provided 'com.squareup.dagger:dagger-compiler:1.2.2'
-    compile 'com.android.support:appcompat-v7:22.2.0'
-    compile 'com.afollestad:material-dialogs:0.7.5.1'
+    compile 'com.android.support:appcompat-v7:23.0.0'
+    compile('com.github.afollestad.material-dialogs:core:0.8.5.4@aar') {
+        transitive = true
+    }
     compile 'com.cocosw:undobar:1.8.1@aar'
 }
